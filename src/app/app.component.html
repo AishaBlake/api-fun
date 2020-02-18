@@ -1,7 +1,7 @@
-<h1><a href="{{data.profile_url}}">{{ data.name }}</a>'s Treehouse Data</h1>
+<h1><a href="{{data.profile_url}}">Hello. This is {{ data.name }}</a>'s Treehouse Data</h1>
 
 <h2>Badges</h2>
 
 <section *ngFor="let badge of data.badges">
-    <img src="{{ badge.icon_url }}" alt="{{ badge.name }}">
+  <img src="{{ badge.icon_url }}" alt="{{ badge.name }}">
 </section>
